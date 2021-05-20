@@ -26,7 +26,6 @@ Gain a solid foundation to learn Tableau, and develop the skills and abilities r
 
 ### Labs
 
-Labs for this course are available at endpoints shared below. Update `<host-ip>` with the lab environment DNS.
 
 1. Taking Off with Tableau		
 2. Connecting to Data in Tableau	
@@ -34,13 +33,10 @@ Labs for this course are available at endpoints shared below. Update `<host-ip>`
 4. Starting an Adventure with Calculations and Parameters	
 5. Leveraging Level of Detail Calculations	
 6. Diving Deep with Table Calculations
-
-		
+	
 		
 
 ### About
-
-Learning Tableau strengthens your command on Tableau fundamentals and builds on advanced topics.
 
 This Tableau course will introduce you to visual statistical analytics capabilities, create different types of visualizations and dynamic dashboards for rich user experiences. We then move on to maps and geospatial visualization, and the new Data Model capabilities introduced in Tableau 2020.2. You will further use Tableau Prep’s ability to clean and structure data and share the stories contained in your data.
 
