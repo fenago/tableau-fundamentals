@@ -854,7 +854,7 @@ on your analysis and visualization journey.
 
 A great place to find help and suggestions for calculations is the
 official Tableau forums at
-[[https://community.tableau.com/s/explore-forums]{.url}](https://community.tableau.com/s/explore-forums).
+[[https://community.tableau.com/s/explore-forums]](https://community.tableau.com/s/explore-forums).
 
 
 Fixing data issues 

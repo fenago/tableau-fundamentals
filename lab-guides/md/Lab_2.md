@@ -508,7 +508,7 @@ credentials, follow these steps:
     is included in the `Chapter 02 Starter`
     workbook in the **Connect to Google Sheets** tab, and may be copied
     and pasted) into the search box and click the **Search** button:
-    [[https://docs.google.com/spreadsheets/d/1fWMGkPt0o7sdbW50tG4QLSZDwkjNO9X0mCkw-LKYu1A/edit?usp=sharing]{.url}](https://docs.google.com/spreadsheets/d/1fWMGkPt0o7sdbW50tG4QLSZDwkjNO9X0mCkw-LKYu1A/edit?usp=sharing):
+    [[https://docs.google.com/spreadsheets/d/1BjFp6J0pq4fUnT2pVI1TSGcjBe1TbcWsciq-dq_kbVk/edit?usp=sharing]](https://docs.google.com/spreadsheets/d/1BjFp6J0pq4fUnT2pVI1TSGcjBe1TbcWsciq-dq_kbVk/edit?usp=sharing):
 
 2.  Select the resulting `Superstore` sheet in
     the list and then click the **Connect** button. You should now see
