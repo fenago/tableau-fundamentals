@@ -7,8 +7,7 @@ Lab 2. Connecting to Data in Tableau
 Tableau offers the ability to connect to nearly any data source. It does
 this with a unique paradigm that leverages the power and efficiency of
 existing database engines or alternately extracts the data locally.
-We\'ll look at joins, blends, unions, and the brand new object model in
-*Chapter 13*, *Understanding the Tableau Data Model, Joins, and Blends*.
+We\'ll look at joins, blends, unions.
 In this lab, we\'ll focus on essential concepts of how Tableau
 connects to and works with data. We\'ll cover the following topics:
 

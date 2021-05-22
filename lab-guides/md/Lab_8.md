@@ -1278,9 +1278,7 @@ Let\'s consider how to create a similar dashboard:
 
 9.  Double-click the **Region** field in the data pane. Tableau will
     automatically generate a geographic visualization based on
-    **Region**. We\'ll examine the creation of custom
-    geographies in more detail in *Chapter 12*,
-    *Exploring Mapping and Advanced Geospatial Features*.
+    **Region**. 
 
 10. Place **Profit Ratio** on **Color** and **Label**. You will also
     want to format **Profit Ratio** as a percentage. You may do so by

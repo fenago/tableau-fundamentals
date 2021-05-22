@@ -288,9 +288,8 @@ the **Discharge Details** table marked as
 
 You\'ve already worked with a similar structure of data in the previous
 lab, where you experienced the differences of relating tables in the
-logical layer and the physical layer of the data model. Feel free to
-return to *Chapter 13*, *Understanding the Tableau Data Model, Joins,
-and Blends*, to review the concepts.
+logical layer and the physical layer of the data model. 
+
 
 Well-implemented star schemas are particularly
 attractive for use in **live connections** because Tableau can improve
@@ -666,8 +665,7 @@ Joins
 -----
 
 You\'ll recall that the concept of joins and the
-types of joins were previously discussed in *Chapter 13*, *Understanding
-the Tableau Data Model, Joins, and Blends*. While joins are quite useful
+types of joins were previously discussed in Lab 13. While joins are quite useful
 in bringing together tables in the same database or even disparate data
 sources (data contained in different systems and formats), they can be
 used to solve other data issues too, such as reshaping data to make it
@@ -925,8 +923,7 @@ you\'d have the same issue.
 
 Fortunately, Tableau gives us the ability to work with different levels
 of detail in a view. Using **Level of Detail** (**LOD**) calculations,
-which we encountered in *Chapter 5*, *Leveraging
-Level of Detail Calculations*, we can calculate the square feet per
+which we encountered in Lab 5, we can calculate the square feet per
 apartment.
 
 Here, we\'ll use a fixed LOD calculation to keep the level of detail

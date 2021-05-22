@@ -201,7 +201,7 @@ movements, and patterns.
 
 Among various uses of this type of visualization, you may have seen
 sparklines used in financial publications to compare the movement of
-stock prices. Recall, that in *Chapter 1*, *Taking Off with Tableau*, we
+stock prices. Recall, that in Lab 1, we
 considered the initial start of a **Sparklines** visualization as we
 looked at iterations of line charts. Here is a far more developed
 example:

@@ -35,8 +35,7 @@ following options:
 
 Tableau Desktop and Server allow you
 to export directly to
-**PowerPoint**. In Tableau Desktop, select **File** \| **Export as
-PowerPoint\...**. After selecting a location and filename, Tableau will
+**PowerPoint**. In Tableau Desktop, select **File** \| **Export as PowerPoint\...**. After selecting a location and filename, Tableau will
 generate a PowerPoint file (`.pptx`), converting
 each tab in the Tableau workbook to a single slide in PowerPoint. Each
 slide will contain a static image of the views and dashboards as they

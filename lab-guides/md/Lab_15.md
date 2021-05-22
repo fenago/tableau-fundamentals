@@ -66,7 +66,7 @@ application for 14 days. Please speak with your Tableau representative
 to confirm licensing and trial periods.
 
 The examples in this lab use files located in the
-`\Learning Tableau\Chapter 15` directory.
+`tableau-2020\Lab 15` directory.
 Specific instructions will guide you on when and how to use the various
 files.
 
@@ -442,7 +442,7 @@ It turns out that most of the airline ticket booking data is in one
 database that\'s represented by the Excel file, but another airline\'s
 booking data is stored in files that are periodically added to a
 directory. These files are in the
-`\Learning Tableau\Chapter 15\` directory. The
+`tableau-2020\Lab 15\` directory. The
 files are named with the convention
 `Southwest YYYY.csv` (where
 `YYYY` represents the
@@ -455,7 +455,7 @@ for additional future files:
     connection to a **Text File**.
 
 2.  Navigate to the
-    `\Learning Tableau\Chapter 15\` directory and
+    `tableau-2020\Lab 15\` directory and
     select any of the `Southwest YYYY.csv` files
     to start the connection. Looking at the **Input** settings, you
     should see that Tableau Prep correctly identifies the field
@@ -1259,7 +1259,7 @@ Figure 15.47: This flow is cleaned up and contains
 
 Once the flow has been executed, open the
 `Airline Travel.twb` workbook in the
-`\Learning Tableau\Chapter 15` directory to see
+`tableau-2020\Lab 15` directory to see
 how the data might be used and to explore it on your own:
 
 ![](./images/B16021_15_48.png)

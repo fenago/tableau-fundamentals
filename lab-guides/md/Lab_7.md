@@ -17,14 +17,6 @@ are several things to consider. We\'ll start with those considerations.
 
 ### Leveraging formatting in Tableau
 
-
-We\'ll focus on worksheet-level formatting in this
-lab, as we\'ve already covered metadata in *Chapter 2*, *Connecting
-to Data in Tableau*, and we will cover dashboards
-and stories in *Chapter 8*, *Telling a Data Story with Dashboards*.
-However, it is beneficial to see the big picture of formatting in
-Tableau.
-
 Tableau employs default formatting that includes default fonts, colors,
 shading, and alignment. Additionally, there are several levels of
 formatting you can customize, as shown in the following diagram:
