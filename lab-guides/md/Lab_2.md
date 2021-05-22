@@ -287,50 +287,17 @@ Take some time to familiarize yourself with the **Data Source** screen
 interface, which has the following features (numbered in the preceding
 screenshot):
 
--   **Toolbar**: The toolbar has a few of the familiar controls,
-    including undo, redo, and save. It also includes the option to
-    refresh the current data source.
--   **Connections**: All the connections in the current data source.
-    Click **Add** to add a new connection to the current data source.
-    This allows you to join data across different connection types. Each
-    connection will be color-coded so that you can distinguish what data
-    is coming from which connection.
--   **Sheets (or Tables)**: This lists all the tables of data available
-    for a given connection. This includes sheets, sub-tables, and named
-    ranges for Excel; tables, views, and stored procedures for
-    relational databases; and other connection-dependent options, such
-    as **New Union** or **Custom SQL**.
--   **Data Source Name**: This is the name of the currently selected
-    data source. You may select a different data source using the
-    drop-down arrow next to the database icon. You may click the name of
-    the data source to edit it.
--   **Object / Data Model Canvas**: Drop sheets and tables from the left
-    into this area to make them part of the connection. You may add
-    additional tables by dragging and dropping or double-clicking them.
-    Each will be added as an object to the object model. You may
-    also add tables as unions or double-click an
-    object to edit the underlying tables and joins. We\'ll cover the
-    details extensively in *Lab 13*, *Understanding the Tableau Data
-    Model, Joins, and Blends*. For now, simply note that Orders and
-    Returns are related together by the Order ID.
--   **Live** **or** **Extract** **Options**: For many data sources, you
-    may choose whether you would like to have a live connection or an
-    extracted connection. We\'ll look at these in further detail later
-    in the lab.
--   **Data Source** **Filters**: You may add filters to the data source.
-    These will be applied at the data-source level, and thus to all
-    views of the data using this data source in the workbook.
--   **Preview Pane Options**: These options allow you to specify whether
-    you\'d like to see a preview of the data or a list of metadata, and
-    how you would like to preview the data (examples include alias
-    values, hidden fields shown, and how many rows you\'d like to
-    preview).
--   **Preview Pane/Metadata View**: Depending on your selection in the
-    options, this space either displays a preview of data or a list of
-    all fields with additional metadata. Notice that these views give
-    you a wide array of options, such as changing data types, hiding or
-    renaming fields, and applying various data transformation functions.
-    We\'ll consider some of these options in this and later labs.
+- Toolbar
+- Connections
+- Sheets (or Tables)
+- Data Source Name
+- Object / Data Model Canvas
+- Live or Extract Options
+- Data Source Filters
+- Preview Pane Options
+- Preview Pane/Metadata View
+
+
 
 **Tip:**
 
@@ -365,13 +332,6 @@ lower-left corner of Tableau Desktop.
 Connecting to data on a server 
 ------------------------------
 
-Database servers, such as SQL Server, Snowflake, Vertica, and Oracle,
-host data on one or more server machines and use
-powerful database engines to store, aggregate, sort, and serve data
-based on queries from client applications. Tableau can leverage the
-capabilities of these servers to retrieve data for visualization and
-analysis. Alternately, data can be extracted from these sources and
-stored in an extract.
 
 As an example of connecting to a server data source, we\'ll demonstrate
 connecting to SQL Server. If you have access to a server-based data

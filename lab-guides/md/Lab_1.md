@@ -804,26 +804,7 @@ Alaska are not shown. Tableau will only draw a geographic mark, such as
 a filled state, if it exists in the data and is not excluded by
 a filter.
 
-Observe that the map does display Canada, Mexico, and other locations
-not included in the data. These are part of a background image retrieved
-from an online map service. The state marks are then drawn on top of the
-background image. We\'ll look at how you can customize the map and even
-use other map services in the *Mapping Techniques* section of *Lab
-12*, *Exploring Mapping and Advanced Geospatial Features*.
 
-Filled maps can work well in interactive
-dashboards and have quite a bit of aesthetic value. However, certain
-kinds of analyses are very difficult with filled maps. Unlike other
-visualization types, where size can be used to communicate
-facets of the data, the size of a filled
-geographic region only relates to the geographic size and can make
-comparisons difficult. For example, which state has the highest sales?
-You might be tempted to say Texas or California because the larger size
-influences your perception, but would you have guessed Massachusetts?
-Some locations may be small enough that they won\'t even show up
-compared to larger areas. Use filled maps with caution and consider
-pairing them with other visualizations on dashboards for
-clear communication.
 
 ### Symbol maps 
 
@@ -901,10 +882,7 @@ maps are not supported at the level of detail in the view. In those
 cases, Tableau is rendering a geographic location that does not have
 built-in shapes.
 
-Other than cases where filled maps are not possible, you will need to
-decide which type best meets your needs. We\'ll also consider the
-possibility of combining filled maps and symbol maps in a single view in
-later labs.
+
 
 ### Density maps 
 
@@ -950,11 +928,7 @@ backgrounds). The **Intensity** slider allows you to determine how
 intensely the marks should be drawn based on concentrations. The
 **Opacity** slider lets you decide how transparent the marks should be.
 
-This density map displays a high concentration of
-orders from the east coast. Sometimes, you\'ll see patterns that merely
-reflect population density. In such cases, your analysis may not be
-particularly meaningful. In this case, the concentration on the east
-coast compared to the lack of density on the west coast is intriguing.
+
 
 Using Show Me 
 -------------
@@ -1017,29 +991,7 @@ doesn\'t give you the exact results you want. At the same time, you will
 need to cultivate an awareness of good visualization practices.
 
 
-Show Me can be a powerful way in which to quickly
-iterate through different visualization types as you search for insights
-into the data. But as a data explorer, analyst, and storyteller, you
-should consider Show Me as a helpful guide that gives suggestions. You
-may know that a certain visualization type will answer your questions
-more effectively than the suggestions of Show Me. You also may have a
-plan for a visualization type that will work well as part of a dashboard
-but isn\'t even included in Show Me.
-
-You will be well on your way to learning and mastering Tableau when you
-can use Show Me effectively but feel just as comfortable building
-visualizations without it. Show Me is powerful for quickly iterating
-through visualizations as you look for insights and raise new questions.
-It is useful for starting with a standard visualization that you will
-further customize. It is wonderful as a teaching and learning tool.
-
-However, be careful to not use it as a crutch without understanding how
-visualizations are actually built from the data. Take the time to
-evaluate why certain visualizations are or are not possible. Pause to
-see what fields and shelves were used when you selected a certain
-visualization type.
-
-End the example by experimenting with Show Me by clicking on various
+Experiment with Show Me by clicking on various
 visualization types, looking for insights into the data that may be more
 or less obvious based on the visualization type. **Circle views** and
 **box-and-whisker plots** show the distribution of postal codes for each
@@ -1047,40 +999,10 @@ state. Bar charts easily expose several postal codes with negative
 profit.
 
 Now that you have become familiar with creating individual views of the
-data, let\'s turn our attention to putting it all together in a
-dashboard.
-
-Putting everything together in a dashboard
+data, let\'s turn our attention to putting it all together in a dashboard.
 
 
-Often, you\'ll need more than a single visualization to communicate the
-full story of the data. In these cases, Tableau
-makes it very easy for you to use multiple
-visualizations together on a dashboard. In Tableau, a **dashboard** is a
-collection of views, filters, parameters, images, and other objects that
-work together to communicate a data story. Dashboards are often
-interactive and allow end users to explore different facets of the data.
 
-Dashboards serve a wide variety of purposes and 
-can be tailored to suit a wide variety of audiences. Consider the
-following possible dashboards:
-
--   A summary-level view of profit and sales to allow executives to take
-    a quick glimpse at the current status of the company
--   An interactive dashboard, allowing sales managers to drill into
-    sales territories to identify threats or opportunities
--   A dashboard allowing doctors to track patient readmissions,
-    diagnoses, and procedures to make better decisions about patient
-    care
--   A dashboard allowing executives of a real-estate company to identify
-    trends and make decisions for various apartment complexes
--   An interactive dashboard for loan officers to make lending decisions
-    based on portfolios broken down by credit ratings and geographic
-    location
-
-Considerations for different audiences and advanced techniques will be
-covered in detail in *Lab 8*, *Telling a Data Story with
-Dashboards*.
 
 The dashboard interface 
 -----------------------
@@ -1238,20 +1160,8 @@ ready to build a dashboard by following these steps:
     time** allows you to see all the ZIP codes that had furniture sales
     in the fourth quarter of 2019.
 
-Congratulations! You have now created a dashboard that allows you to
-carry out interactive analysis!
+Congratulations! You have now created a dashboard that allows you to carry out interactive analysis!
 
-As an analyst for the Superstore chain, your visualizations allowed you
-to explore and analyze the data. The dashboard you created can be shared
-with members of management, and it can be used as a tool to help them
-see and understand the data to make better decisions. When a
-manager selects the furniture department, it
-immediately becomes obvious that there are locations where sales are
-quite high, but the profit is actually very low. This may lead to
-decisions such as a change in marketing or a new sales focus for that
-location. Most likely, this will require additional analysis to
-determine the best course of action. In this case, Tableau will empower
-you to continue the cycle of discovery, analysis, and storytelling.
 
 Summary
 

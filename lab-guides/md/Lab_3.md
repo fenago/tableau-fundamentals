@@ -424,10 +424,6 @@ The color will continue to make monitoring easy. The label will only
 show for the two departments you selected and will update with the
 changing data.
 
-Now that we\'ve considered how bar charts can be used to compare values
-and have walked through several examples of variations, let\'s turn our
-attention to visualizing dates and times.
-
 
 ### Visualizing dates and times
 
@@ -1453,8 +1449,6 @@ visualization:
 
 ![](./images/B16021_03_55.png)
 
-Figure 3.55: A combination chart that shows individual branch visits as
-lines and total visits as bars.
 
 This chart uses a 
 combination of bars and lines to show the total number of patient visits
@@ -1497,11 +1491,3 @@ to extend basic visualizations using a variety of advanced techniques,
 such as calculated fields, jittering, multiple mark types, and dual
 axis. Along the way, we\'ve also covered some details on how dates work
 in Tableau.
-
-Hopefully, the examples of using calculations in this lab have whet
-your appetite for learning more about creating calculated fields. The
-ability to create calculations in Tableau opens endless possibilities
-for extending analysis of data, calculating results, customizing
-visualizations, and creating rich user interactivity. We\'ll dive deep
-into calculations in the next two labs to see how they work and what
-amazing things they can do.
