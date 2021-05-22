@@ -1,7 +1,8 @@
+<img align="right" src="./logo.png">
 
-Advanced Visualizations
-=======================
 
+Lab 10. Advanced Visualizations
+==============================
 
 
 

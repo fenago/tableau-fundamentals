@@ -1,5 +1,9 @@
 
-Structuring Messy Data to Work Well in Tableau
+
+<img align="right" src="./logo.png">
+
+
+Lab 14. Structuring Messy Data to Work Well in Tableau
 ==============================================
 
 

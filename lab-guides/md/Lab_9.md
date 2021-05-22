@@ -1,5 +1,7 @@
+<img align="right" src="./logo.png">
 
-Visual Analytics -- Trends, Clustering, Distributions, and Forecasting
+
+Lab 9. Visual Analytics -- Trends, Clustering, Distributions, and Forecasting
 ======================================================================
 
 

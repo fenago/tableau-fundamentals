@@ -1,6 +1,9 @@
 
-Making Visualizations That Look Great and Work Well
-===================================================
+<img align="right" src="./logo.png">
+
+
+Lab 7. Making Visualizations That Look Great and Work Well
+=============================================================
 
 
 
@@ -11,8 +14,6 @@ This lab will cover the following topics:
 
 As you think about why you should adjust a given visualization, there
 are several things to consider. We\'ll start with those considerations.
-
-
 
 
 ### Leveraging formatting in Tableau

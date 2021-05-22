@@ -1,24 +1,11 @@
 
-Taming Data with Tableau Prep
-=============================
+
+<img align="right" src="./logo.png">
 
 
-We considered some options for structuring data in Tableau Desktop in
-the previous lab. Many of the concepts around well-structured data
-will apply here as we now turn our attention to another product from
-Tableau: **Tableau Prep**. Tableau Prep extends the Tableau platform
-with robust options for cleaning and structuring data for analysis in
-Tableau. In the same way that Tableau Desktop provides a hands-on,
-visual experience for visualizing and analyzing data, Tableau Prep
-provides a hands-on, visual experience for cleaning and shaping data.
+Lab 15. Taming Data with Tableau Prep
+=======================================
 
-Tableau Prep is on an accelerated, monthly release cycle and while the
-platform continues to grow and expand, there is an underlying paradigm
-that sets a foundation for cleaning and shaping data. We\'ll cover a lot
-of ground in this lab, but our goal is not to cover every possible
-feature---and indeed, we won\'t. Instead, we will seek to understand the
-underlying paradigm and flow of thought that will enable you to tackle a
-multitude of data challenges in Tableau Prep.
 
 In this lab, we\'ll work through a couple of practical examples as
 we explore the paradigm of Tableau Prep, understand the fundamental
@@ -37,6 +24,7 @@ following:
     -   Filtering data in Tableau Prep
     -   Transforming the data for analysis
 -   Options for automating flows
+
 
 In this lab, we\'ll use the term Tableau Prep broadly to speak of
 the entire platform that Tableau has developed for data prep and

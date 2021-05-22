@@ -1,5 +1,7 @@
+<img align="right" src="./logo.png">
 
-Exploring Mapping and Advanced Geospatial Features
+
+Lab 12. Exploring Mapping and Advanced Geospatial Features
 ==================================================
 
 

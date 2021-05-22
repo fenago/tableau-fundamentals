@@ -1,5 +1,8 @@
 
-Understanding the Tableau Data Model, Joins, and Blends
+<img align="right" src="./logo.png">
+
+
+Lab 13. Understanding the Tableau Data Model, Joins, and Blends
 =======================================================
 
 

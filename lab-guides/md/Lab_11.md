@@ -1,12 +1,16 @@
 
-Dynamic Dashboards
+
+<img align="right" src="./logo.png">
+
+
+Lab 11. Dynamic Dashboards
 ==================
 
 
 We\'ve looked at dashboards previously, in *Lab 8*, *Telling a Data
 Story with Dashboards*, and considered how to make them interactive
 using a variety of actions. Now we\'ll expand on that concept to
-consider how to create truly dynamic dashboards---dashboards where
+consider how to create truly dynamic dashboards --- dashboards where
 objects can be shown and hidden. This enables you to do all kinds of
 amazing things, such as allow the user to select which type of
 visualization to see or to dynamically hide or show controls that are

@@ -1,5 +1,8 @@
 
-Telling a Data Story with Dashboards
+<img align="right" src="./logo.png">
+
+
+Lab 8. Telling a Data Story with Dashboards
 ====================================
 
 

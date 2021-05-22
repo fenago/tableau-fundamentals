@@ -1,5 +1,8 @@
+<img align="right" src="./logo.png">
 
-Sharing Your Data Story
+
+
+Lab 16. Sharing Your Data Story
 =======================
 
 
