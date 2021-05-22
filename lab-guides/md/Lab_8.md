@@ -254,7 +254,7 @@ other fits their style. Here are some considerations:
     one approach or the other. For example, transparent visualizations
     can be layered on top of background images using a floating
     technique. However, sheet swapping (which we\'ll consider in
-    *Chapter 11*, *Dynamic Dashboards*) is often accomplished with a
+    *Lab 11*, *Dynamic Dashboards*) is often accomplished with a
     tiled approach.
 -   **Maintenance**: Changes to the layout of a floating dashboard might
     be harder and more tedious than doing so for tiled layouts.
@@ -1008,7 +1008,7 @@ may select the sheets and user interactions (**Hover**, **Select**,
 parameter and specify which field will set the value. You may use any
 field in the sheet and may also specify an aggregation for the field.
 
-We saw in *Chapter 4*, *Starting an Adventure with Calculations and
+We saw in *Lab 4*, *Starting an Adventure with Calculations and
 Parameters*, how parameters can be used to
 accomplish all kinds of results. You can use them in
 calculations, filters, and **Top N** sets, and you

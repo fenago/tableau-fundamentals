@@ -181,7 +181,7 @@ to the right. Any step can have multiple output branches that represent
 logical copies of the data at that point in the flow.
 
 One important thing to notice is that four of the step types represent
-the four major transformations of data we discussed in *Chapter 14*,
+the four major transformations of data we discussed in *Lab 14*,
 *Structuring Messy Data to Work Well in Tableau*. The step types of
 **Pivot**, **Union**, **Join**, and **Aggregate** exactly match those
 transformations, while the **Clean Step** allows various other

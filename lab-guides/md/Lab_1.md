@@ -67,7 +67,7 @@ workbook:
 
 You will now see the data connection screen, which allows you to
 visually create connections to data sources. We\'ll examine the features
-of this screen in detail in the *Connecting to data* section of *Chapter
+of this screen in detail in the *Connecting to data* section of *Lab
 2*, *Connecting to Data in Tableau*. For now, Tableau has already added
 and given a preview of the file for the connection:
 
@@ -635,7 +635,7 @@ Continue your analysis of Superstore sales using the
     **Quarter**. You may notice that **Quarter**
     is listed twice in the drop-down menu. We\'ll explore the various
     options for date parts, values, and hierarchies in the *Visualizing
-    Dates and Times* section of *Chapter 3*, *Moving Beyond Basic
+    Dates and Times* section of *Lab 3*, *Moving Beyond Basic
     Visualizations*. For now, select the second option:
 
     ![](./images/B16021_01_16.png)
@@ -705,7 +705,7 @@ following example:
     product over time without an overwhelming overlap, and you can still
     compare trends and patterns over time. This is the start of a
     spark-lines visualization that will be developed more fully in
-    *Chapter 10*, *Advanced Visualizations*:
+    *Lab 10*, *Advanced Visualizations*:
 
     ![](./images/B16021_01_19.png)
 
@@ -749,7 +749,7 @@ several types of geographic visualization:
 
 Additionally, Tableau can read spatial files and geometries from some
 databases and render spatial objects, polygons, and more. We\'ll take a
-look at these and other geospatial capabilities in *Chapter 12*,
+look at these and other geospatial capabilities in *Lab 12*,
 *Exploring Mapping and Advanced Geospatial Features.* For now, we\'ll
 consider some foundational principles for geographic visualization.
 
@@ -808,7 +808,7 @@ Observe that the map does display Canada, Mexico, and other locations
 not included in the data. These are part of a background image retrieved
 from an online map service. The state marks are then drawn on top of the
 background image. We\'ll look at how you can customize the map and even
-use other map services in the *Mapping Techniques* section of *Chapter
+use other map services in the *Mapping Techniques* section of *Lab
 12*, *Exploring Mapping and Advanced Geospatial Features*.
 
 Filled maps can work well in interactive
@@ -1079,7 +1079,7 @@ following possible dashboards:
     location
 
 Considerations for different audiences and advanced techniques will be
-covered in detail in *Chapter 8*, *Telling a Data Story with
+covered in detail in *Lab 8*, *Telling a Data Story with
 Dashboards*.
 
 The dashboard interface 
@@ -1092,7 +1092,7 @@ interface. You might navigate to the **Superstore Sales** sheet and take
 a quick look at it yourself.
 
 The dashboard window consists of several key components. Techniques for
-using these objects will be detailed in *Chapter 8*, *Telling a Data
+using these objects will be detailed in *Lab 8*, *Telling a Data
 Story with Dashboards.* For now, focus on gaining some familiarity with
 the options that are available. One thing you\'ll notice is that the
 left sidebar has been replaced with dashboard-specific content:

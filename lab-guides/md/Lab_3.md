@@ -5,28 +5,6 @@ Lab 3. Moving Beyond Basic Visualizations
 ==================================
 
 
-You are now ready to set out on your adventure of creating more advanced
-visualizations! *Advanced* does not necessarily mean *difficult* since
-Tableau makes many visualizations easy to create. *Advanced* also does
-not necessarily mean *complex*. The goal is to communicate the data, not
-to obscure it in needless complexity.
-
-Instead, these visualizations are advanced in the sense that you will
-need to understand when they should be used, why they are useful, and
-how to leverage the capabilities of Tableau to create them.
-Additionally, many of the examples we will look at will introduce some
-advanced techniques, such as calculations, to extend the usefulness of
-foundational visualizations. Many of these techniques will be developed
-fully in future labs, so don\'t worry about trying to absorb every
-detail right now.
-
-Most of the examples in this lab are designed so that you can follow
-along. However, don\'t simply memorize a set of instructions. Instead,
-take the time to understand how the combinations of different field
-types you place on different shelves change the way headers, axes, and
-marks are rendered. Experiment and even deviate from the instructions
-from time to time, just to see what else is possible. You can always use
-Tableau\'s back button to follow the example again!
 
 In this lab, visualizations will fall under the following major
 categories:
@@ -38,9 +16,9 @@ categories:
 -   Multiple axes
 
 You may have noticed the lack of a spatial location or geographic
-category in the preceding list. Mapping was introduced in *Chapter 1*,
+category in the preceding list. Mapping was introduced in *Lab 1*,
 *Taking Off with Tableau*, and we\'ll get to some advanced geographic
-capabilities in *Chapter 12*, *Exploring Mapping and Advanced Geospatial
+capabilities in *Lab 12*, *Exploring Mapping and Advanced Geospatial
 Features*.
 
 You may recreate the examples that are found in this lab by using
@@ -76,7 +54,7 @@ Bar charts
 ----------
 
 Here is a simple bar chart, similar to the one we
-built in *Chapter 1*, *Taking Off with Tableau*:
+built in *Lab 1*, *Taking Off with Tableau*:
 
 ![](./images/B16021_03_01.png)
 
@@ -186,7 +164,7 @@ The patient visit and revenue data is contained in
 in `Hospital Goals.csv`. These two data
 connections are related together in a **Data Model** in both the
 `Starter` and `Complete`
-workbooks. We\'ll look more at the data model in *Chapter 13*,
+workbooks. We\'ll look more at the data model in *Lab 13*,
 *Understanding the Tableau Data Model, Joins, and Blends.* For now,
 simply use the `Hospital Visits & Revenue` data
 source to complete the examples in this lab.
@@ -785,14 +763,6 @@ consider how to show part-to-whole relationships.
 Stacked bars 
 ------------
 
-We took a look at stacked bars in *Chapter 1*,
-*Taking Off with Tableau*, where we noted one
-significant drawback: it is difficult to compare values across most
-categories. Except for the leftmost (or bottom-most) bars, the other bar
-segments have different starting points, so lengths are much more
-difficult to compare. It doesn\'t mean stacked bars should never be
-used, but caution should be exercised to ensure clarity of
-communication.
 
 Here, we are using stacked bars to visualize the makeup of the whole. We
 are less concerned with visually comparing across categories and more
@@ -839,7 +809,7 @@ higher percentage of them are in a high-risk category.
 
 Let\'s consider how the preceding charts can be created and even
 combined into a single visualization in Tableau. We\'ll use a quick
-table calculation. We\'ll cover table calculations much more in *Chapter
+table calculation. We\'ll cover table calculations much more in *Lab
 6*, *Diving Deep with Table Calculations*. Here, simply follow these
 steps:
 

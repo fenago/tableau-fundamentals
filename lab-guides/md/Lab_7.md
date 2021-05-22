@@ -296,8 +296,6 @@ workbooks:
 
 ![](./images/B16021_07_08.png)
 
-Figure 7.8: Experiment with format strings using the Custom Number
-Formatting view in the Chapter 7 workbook
 
 Notice how Tableau rounds the display of the number based on the format
 string. Always be aware that numbers you see as text, labels, or headers

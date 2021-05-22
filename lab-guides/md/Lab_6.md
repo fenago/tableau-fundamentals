@@ -4,20 +4,6 @@ Lab 6. Diving Deep with Table Calculations
 ===================================
 
 
-**Table calculations** are one of the most powerful features in Tableau.
-They enable solutions that really couldn\'t be achieved any other way
-(short of writing a custom application or complex custom SQL scripts!).
-The features include the following:
-
--   They make it possible to use data that isn\'t structured well and
-    still get quick results without waiting for someone to fix the data
-    at the source.
--   They make it possible to compare and perform calculations on
-    aggregate values across rows of the resulting table.
--   They open incredible possibilities for analysis and creative
-    approaches to solving problems, highlighting insights, or improving
-    the user experience.
-
 Table calculations range in complexity, from incredibly easy to create
 (a couple of clicks) to extremely complex (requiring an understanding of
 **addressing**, **partitioning**, and **data densification**, for
@@ -26,7 +12,7 @@ lab. The goal is to gain a solid foundation in creating and using
 table calculations, understanding how they work, and looking at some
 examples of how they can be used. We\'ll consider these topics:
 
--   An overview of table calculations
+
 -   Quick table calculations
 -   Scope and direction
 -   Addressing and partitioning
@@ -39,64 +25,12 @@ lab. To follow along with the examples, use the
 `Chapter 06 Starter.twbx` workbook.
 
 
-### An overview of table calculations
+### Table calculations
 
 
-**Table calculations** are different from all
-other calculations in Tableau. Row-level, aggregate calculations, and
-LOD expressions, which we explored in the previous labs, are
-performed as part of the query to the data source. If you were to
-examine the queries sent to the data source by Tableau, you\'d find the
-code for your calculations translated into whatever implementation of
-SQL the data source used.
 
-Table calculations, on the other hand, are performed after the initial
-query. Here\'s a diagram that demonstrates how aggregated results are
-stored in Tableau\'s cache:
 
-![](./images/B16021_06_01.png)
-
-Figure 6.1: Table calculations are computed in Tableau\'s cache of
-aggregated data
-
-Table calculations are performed on the aggregate
-table of data in Tableau\'s cache right before the data visualization is
-rendered. As we\'ll see, this is important to understand for multiple
-reasons, including the following:
-
--   **Aggregation**: Table calculations operate on
-    aggregate data. You cannot reference a field in a table calculation
-    without referencing the field as an aggregate.
--   **Filtering**: Regular filters will be applied
-    before table calculations. This means that table calculations will
-    only be applied to data returned from the source to the cache.
-    You\'ll need to avoid filtering any data necessary for the table
-    calculation.
--   **Table calculation filtering** (sometimes called **late
-    filtering**): Table calculations used as filters will be applied
-    after the aggregate results are returned from
-    the data source. The order is important: row-level and aggregate
-    filters are applied first, the aggregate data is returned to the
-    cache, and then the table calculation is applied as a filter that
-    effectively hides data from the view. This allows some creative
-    approaches to solving certain kinds of problems that we\'ll consider
-    in some of the examples later in the lab.
--   **Performance**: If you are using a live
-    connection to an enterprise database server, then row-level and
-    aggregate-level calculations will be taking advantage of
-    enterprise-level hardware. Table calculations are performed in the
-    cache, which means they will be performed on whatever machine is
-    running Tableau. You will not likely need to be concerned if your
-    table calculations are operating on a dozen or even hundreds of rows
-    of aggregate data, or if you anticipate publishing to a powerful
-    Tableau server. However, if you are getting back hundreds of
-    thousands of rows of aggregate data on your local machine, then
-    you\'ll need to consider the performance of your table calculations.
-    At the same time, there are cases where table calculations might be
-    used to avoid an expensive filter or calculation at the source.
-
-With this overview of table calculations in mind, let\'s jump into
-understanding some options for creating table calculations.
+Let\'s jump into understanding some options for creating table calculations.
 
 Creating and editing table calculations 
 ---------------------------------------
@@ -115,14 +49,13 @@ calculations in Tableau, including:
 
 The first two options create a quick table
 calculation, which can be edited or removed using the drop-down menu on
-the field and selecting **Edit Table Calculation\...** or **Clear Table
-Calculation**. The third option creates a calculated field, which can be
+the field and selecting **Edit Table Calculation\...** or **Clear Table Calculation**. The third option creates a calculated field, which can be
 edited or deleted like any other calculated field.
 
 A field on a shelf in the view that is using a
 table calculation, or which is a calculated field using table
 calculation functions, will have a delta symbol icon
-([![](./images/B16021_06_001.png)]{.mediaobject}) visible, as follows.
+([![](./images/B16021_06_001.png)]) visible, as follows.
 
 Following is a snippet of an active field without a table calculation:
 

@@ -3,7 +3,7 @@ Dynamic Dashboards
 ==================
 
 
-We\'ve looked at dashboards previously, in *Chapter 8*, *Telling a Data
+We\'ve looked at dashboards previously, in *Lab 8*, *Telling a Data
 Story with Dashboards*, and considered how to make them interactive
 using a variety of actions. Now we\'ll expand on that concept to
 consider how to create truly dynamic dashboards---dashboards where
@@ -34,8 +34,7 @@ in the second example are also in the
 `Chapter 11` directory.
 
 To use the Show/Hide buttons, add a layout container to a dashboard as a
-**floating object** and then use the dropdown to select **Add Show/Hide
-Button**, as shown here in *Figure 11.1*:
+**floating object** and then use the dropdown to select **Add Show/Hide Button**, as shown here in *Figure 11.1*:
 
 ![](./images/B16021_11_01.png)
 
@@ -43,8 +42,7 @@ Figure 11.1: A dashboard with a single Map view and a floating layout
 container
 
 On this dashboard, we\'ve added a vertical layout
-container floating over the map. When we select **Add Show/Hide
-Button**, Tableau adds a small button to the dashboard:
+container floating over the map. When we select **Add Show/Hide Button**, Tableau adds a small button to the dashboard:
 
 ![](./images/B16021_11_02.png)
 

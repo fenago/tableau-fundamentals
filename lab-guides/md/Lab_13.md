@@ -104,7 +104,7 @@ Creating a data model
 ---------------------
 
 We\'ve briefly looked at the **Data Source**
-screen in *Chapter 2*, *Connecting to Data in Tableau*. Now, we\'ll take
+screen in *Lab 2*, *Connecting to Data in Tableau*. Now, we\'ll take
 a deeper look at the concepts behind the interface. Feel free to follow
 along with the following example in the
 `Chapter 13 Starter.twb` workbook, or examine the
@@ -459,7 +459,7 @@ following types of joins:
 
 -   **Spatial**: This joins together records that
     match based on the **intersection** (overlap) of spatial objects (we
-    discussed Tableau\'s spatial features in *Chapter 12*, *Exploring
+    discussed Tableau\'s spatial features in *Lab 12*, *Exploring
     Mapping and Advanced Geospatial Features*). For example, a point
     based on the latitude and longitude might fall inside the complex
     shape defined by a shapefile. Records will be kept for any records
@@ -532,8 +532,8 @@ the join. It will look like this:
 
 ![](./images/B16021_13_21.png)
 
-Figure 13.21: Joining Discharge Detail to Hospital Visit in the physical
-layer
+Figure 13.21: Joining Discharge Detail to Hospital Visit in the physical layer
+
 
 The **Join** dialog allows you to specify the join type (**Inner**,
 **Left**, **Right**, or **Full Outer**) and to specify one
@@ -570,8 +570,7 @@ this:
 
 ![](./images/B16021_13_22.png)
 
-Figure 13.22: The physical layer is made up of three tables joined
-together
+Figure 13.22: The physical layer is made up of three tables joined together
 
 When you close the physical layer, you\'ll once
 again see the logical layer, which contains a single object: **Hospital
@@ -611,8 +610,7 @@ For example, imagine that there is a **Patient Profile** table that
 would add significant value to your dataset. However, it lacks a
 **Patient ID** and only has **First Name** and **Last Name** fields.
 
-To join this to our **Patient** table, we can use a **join
-calculation**. This is a calculation that exists only for the purpose of
+To join this to our **Patient** table, we can use a **join calculation**. This is a calculation that exists only for the purpose of
 joining tables together. To create a join calculation, use the drop-down
 list of fields in the **Join** dialog box and select the final option,
 **Create Join Calculation**:
@@ -637,7 +635,7 @@ example would be subject to false matches and errors.
 
 
 You may also leverage the geospatial functions
-mentioned in *Chapter 12*, *Exploring Mapping and Advanced Geospatial
+mentioned in *Lab 12*, *Exploring Mapping and Advanced Geospatial
 Features*, to create a spatial join between two
 sources, even when one or both lack specific spatial objects on which to
 join. For example, if you have `Latitude` and
@@ -726,7 +724,7 @@ of verifying the row count of any data sources where you use joins.
 
 A solid understanding of joins will not only help you as you leverage
 Tableau Desktop and Tableau Server, but it will also give you a solid
-foundation when we look at Tableau Prep in *Chapter 15*, *Taming Data
+foundation when we look at Tableau Prep in *Lab 15*, *Taming Data
 with Tableau Prep*. For now, let\'s wrap up this lab with a brief
 look at blends.
 

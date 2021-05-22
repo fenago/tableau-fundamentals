@@ -5,27 +5,6 @@ Lab 4. Starting an Adventure with Calculations and Parameters
 ======================================================
 
 
-We have already seen what amazing discovery, analysis, and data
-storytelling is possible in Tableau by simply connecting to data and
-dragging and dropping fields. Now, we\'ll set off on an adventure with
-calculations.
-
-Calculations significantly extend the possibilities for analysis,
-design, and interactivity in Tableau. In this lab, we\'ll see how
-calculations can be used in a wide variety of ways. We\'ll see how
-calculations can be used to address common issues with data, extend data
-by adding new dimensions and measures, and provide additional
-flexibility in interactivity.
-
-At the same time, while calculations provide incredible power and
-flexibility, they introduce a level of complexity and sophistication. As
-you work through this lab, try to understand the key concepts behind
-how calculations work in Tableau. As usual, follow along with the
-examples, but feel free to explore and experiment. The goal is not to
-merely have a list of calculations you can copy, but to gain knowledge
-of how calculations can be used to solve problems and add creative
-functionality to your visualizations and dashboards.
-
 The first half of this lab focuses on laying a foundation, while the
 second half provides quite a few practical examples. The topics we will
 study here are as follows:
@@ -56,49 +35,9 @@ result is per row of data, and sometimes it is done at an aggregate
 level. We\'ll consider the difference between Tableau\'s major
 calculation types next.
 
-The four main types of calculations 
------------------------------------
 
-The most fundamental way to understand calculations in Tableau is to
-think of four major types of calculations:
+Let's see how calculation types are created and edited.
 
--   **Row-level calculations**: These
-    calculations are
-    performed for every row
-    of underlying data.
--   **Aggregate calculations**:
-    These calculations are
-    performed at an
-    aggregate level, which
-    is usually defined by the dimensions used in the view.
--   **Level of detail calculations**: These special
-    calculations are
-    aggregations that are performed at a specified level of detail, with
-    the results available at the row level.
--   **Table calculations**: These
-    calculations are
-    performed on the table of aggregate data that has been returned by
-    the data source to Tableau.
-
-Understanding and recognizing the four main types of calculations will
-enable you to leverage the power and potential of calculations in
-Tableau.
-
-In this lab, we\'ll take a close look at two of the four main types
-of calculations in Tableau: row-level and aggregate calculations. We\'ll
-consider the final two types in *Chapter 5*, *Leveraging Level of Detail
-Calculations*, and *Chapter 6*, *Diving Deep with Table Calculations*.
-
-**Tip:**
-
-As you think through using a calculation to solve a problem, always
-consider the type of calculation you might need. Look for tips
-throughout this lab and the next two that will help you consider
-*why* a certain type of calculation was used.
-
-
-Now we have examined the major calculation types in Tableau, we will see
-how they are created and edited.
 
 Creating and editing calculations 
 ---------------------------------
@@ -772,7 +711,7 @@ such as a number, date, or string. Parameters may be shown as controls
 (such as sliders, drop-down lists, or type-in text boxes) to end users
 of dashboards or views, giving them the ability to change the current
 value of the parameter. Parameter values may even be changed with
-actions, as you\'ll see in *Chapter 8*, *Telling a Data Story with
+actions, as you\'ll see in *Lab 8*, *Telling a Data Story with
 Dashboards*.
 
 The value of a parameter is global so that if the value is changed,
@@ -931,7 +870,7 @@ Calculated fields can often be used to fix these kinds of issues.
 **Tip:**
 
 We\'ll consider using Tableau Prep---a tool designed to shape and
-cleanse data---in *Chapter 14*, *Structuring Messy Data to Work Well in
+cleanse data---in *Lab 14*, *Structuring Messy Data to Work Well in
 Tableau*. Tableau Prep\'s calculation syntax is nearly identical, so
 many of the examples in this lab will also be applicable in that
 context. Knowing how to address data issues in either Tableau Desktop or
@@ -1294,11 +1233,6 @@ can optimize your calculations for better results.
 
 ## Summary
 
-Calculations open amazing possibilities in Tableau. You are no longer
-confined to the fields in the source data. With calculations, you can
-extend the data by adding new dimensions and measures, fix bad or poorly
-formatted data, and enhance the user experience with parameters for user
-input and calculations that enhance the visualizations.
 
 The key to using calculated fields is understanding the four main types
 of calculations in Tableau. Row-level calculations are performed for
