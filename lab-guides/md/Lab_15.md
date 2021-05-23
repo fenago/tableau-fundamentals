@@ -496,7 +496,7 @@ Let\'s start with seeing how to union together branches in the flow.
 
 ### Unioning, merging mismatched fields, and removing unnecessary fields
 
-We know that we want to bring together the booking data for all the
+We know that we want to bring together the courseing data for all the
 airlines, so we\'ll union together the two paths in the flow:
 
 1.  Drag the **Clean 2** step onto the **Clean 1** step and drop it onto

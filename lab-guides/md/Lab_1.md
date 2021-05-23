@@ -23,18 +23,7 @@ and concepts, including the following:
 
 Let\'s begin by looking at how you can connect Tableau to your data.
 
-Connecting to data
-
-Tableau connects to data stored in a wide variety
-of files and databases. This includes flat files, such as Excel
-documents, spatial files, and text files; relational databases, such as
-SQL Server and Oracle; cloud-based data sources, such as Snowflake
-and Amazon Redshift; and **Online Analytical
-Processing** (**OLAP**) data sources, such as Microsoft SQL Server
-Analysis Services. With very few exceptions, the process of analysis and
-creating visualizations will be the same, no matter what data source
-you use.
-
+**Connecting to data**
 
 In this lab, we\'ll connect to a text file derived from one of the
 sample datasets that ships with Tableau:
@@ -87,7 +76,7 @@ Figure 1.2: Elements of Tableau\'s primary interface, numbered with
 descriptions below
 
 We\'ll refer to elements of the interface
-throughout the book using specific terminology, so take a moment to
+throughout the course using specific terminology, so take a moment to
 familiarize yourself with the terms used for various components numbered
 in the preceding screenshot:
 

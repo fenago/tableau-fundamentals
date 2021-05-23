@@ -625,12 +625,6 @@ incorporate simple or complex scripts for everything from advanced
 statistics to predictive modeling. 
 
 
-**Note:**
-
-Bora Beran, for example, has an excellent post
-here:
-[[https://www.tableau.com/about/blog/2016/11/leverage-power-python-tableau-tabpy-62077]{.url}](https://www.tableau.com/about/blog/2016/11/leverage-power-python-tableau-tabpy-62077)
-
 
 The Total function 
 ------------------
