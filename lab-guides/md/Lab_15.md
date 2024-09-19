@@ -48,13 +48,11 @@ Mac. If you do not currently have Tableau Prep Builder installed on your
 machine, please take a moment to download the
 application from
 [[https://www.tableau.com/products/prep/download]](https://www.tableau.com/products/prep/download).
-Licenses for Tableau Prep Builder are included with Tableau Creator
-licensing. If you do not currently have a license, you may trial the
-application for 14 days. Please speak with your Tableau representative
-to confirm licensing and trial periods.
+
+![](./images/sprep.jpg)
 
 The examples in this lab use files located in the
-`tableau-2020\Lab 15` directory.
+`tableau-fundamentals\Lab 15` directory.
 Specific instructions will guide you on when and how to use the various
 files.
 
@@ -430,7 +428,7 @@ It turns out that most of the airline ticket booking data is in one
 database that\'s represented by the Excel file, but another airline\'s
 booking data is stored in files that are periodically added to a
 directory. These files are in the
-`tableau-2020\Lab 15\` directory. The
+`tableau-fundamentals\Lab 15\` directory. The
 files are named with the convention
 `Southwest YYYY.csv` (where
 `YYYY` represents the
@@ -443,7 +441,7 @@ for additional future files:
     connection to a **Text File**.
 
 2.  Navigate to the
-    `tableau-2020\Lab 15\` directory and
+    `tableau-fundamentals\Lab 15\` directory and
     select any of the `Southwest YYYY.csv` files
     to start the connection. Looking at the **Input** settings, you
     should see that Tableau Prep correctly identifies the field
@@ -1247,7 +1245,7 @@ Figure 15.47: This flow is cleaned up and contains
 
 Once the flow has been executed, open the
 `Airline Travel.twb` workbook in the
-`tableau-2020\Lab 15` directory to see
+`tableau-fundamentals\Lab 15` directory to see
 how the data might be used and to explore it on your own:
 
 ![](./images/B16021_15_48.png)

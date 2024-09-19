@@ -21,6 +21,15 @@ and concepts, including the following:
 -   Using Show Me
 -   Bringing everything together in a dashboard
 
+
+### Install Tableau Desktop
+
+Go to following URL and Download Tableau after filling the form:
+`https://www.tableau.com/products/desktop/download`
+
+![](./images/setup.jpg)
+
+
 Let\'s begin by looking at how you can connect Tableau to your data.
 
 **Connecting to data**
@@ -51,7 +60,7 @@ workbook:
     sample workbooks at the bottom.
 2.  Under **Connect** and **To a File**, click on **Text File**.
 3.  In the **Open** dialog box, navigate to the
-    `tableau-2020\Lab 01` directory and
+    `tableau-fundamentals\Lab 01` directory and
     select the `Superstore.csv` file.
 
 You will now see the data connection screen, which allows you to
@@ -153,7 +162,7 @@ visualization types. To prepare for this, please do the following:
 
 1.  From the menu, select **File** \| **Exit**.
 2.  When prompted to save changes, select **No**.
-3.  From the `tableau-2020\Lab 01`
+3.  From the `tableau-fundamentals\Lab 01`
     directory, open the file
     `Chapter 01 Starter.twbx.` This file contains
     a connection to the `Superstore` data file

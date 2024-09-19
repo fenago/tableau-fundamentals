@@ -256,7 +256,7 @@ will be able to easily see how the calculations are being done.
 
 This dataset is included as
 `Vacation Rentals.csv` in the
-`tableau-2020\Lab 04` directory of this
+`tableau-fundamentals\Lab 04` directory of this
 book\'s resources, and is also included in the
 `Chapter 4` workbook as a data source named
 `Vacation Rentals`:

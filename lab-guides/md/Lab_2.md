@@ -38,7 +38,7 @@ A simple example
 ----------------
 
 Open the `Chapter 02 Starter.twbx` workbook
-located in the `tableau-2020\Lab 02`
+located in the `tableau-fundamentals\Lab 02`
 directory and navigate to the `Tableau Paradigm`
 sheet. That view was created by dropping the
 **Region** dimension on **Columns** and the **Sales** measure on
@@ -164,7 +164,7 @@ Follow this example to see a connection to an Excel file:
     **Microsoft Excel** from the list of possible connections.
 3.  In the open dialogue, open the
     `Superstore.xlsx` file from the
-    `tableau-2020\Lab 02` directory.
+    `tableau-fundamentals\Lab 02` directory.
     Tableau will open the **Data Source** screen. You should see the two
     sheets of the Excel document listed on the left.
 4.  Double-click the **Orders** sheet and then the **Returns** sheet.
