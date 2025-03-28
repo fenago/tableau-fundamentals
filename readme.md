@@ -1,6 +1,6 @@
 <img align="right" src="./logo.png">
 
-<h2><span style="color:red;">Tableadu Desktop Fundamentals</span></h2>
+<h2><span style="color:red;">Tableau Desktop Fundamentals</span></h2>
 
 ### Description
 
