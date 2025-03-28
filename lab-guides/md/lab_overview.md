@@ -1,6 +1,6 @@
 <img align="right" src="./logo.png">
 
-<h2><span style="color:red;">Learning Tableau Fundamentals</span></h2>
+<h2><span style="color:red;">Tableadu Desktop Fundamentals</span></h2>
 
 ### Description
 
@@ -9,7 +9,7 @@ Gain a solid foundation to learn Tableau, and develop the skills and abilities r
 
 **Key Features**
 
-- Explore the latest Tableau 2020 features and redefine business analytics for your firm
+- Explore the latest Tableau features and redefine business analytics for your firm
 - Understand visualizing data and creating interactive dashboards to gain meaningful insights
 - Learn implementing effective data storytelling to redefine how your business leverages data and makes decisions
 
@@ -39,6 +39,6 @@ Gain a solid foundation to learn Tableau, and develop the skills and abilities r
 
 ### About
 
-This Tableau course will introduce you to visual statistical analytics capabilities, create different types of visualizations and dynamic dashboards for rich user experiences. We then move on to maps and geospatial visualization, and the new Data Model capabilities introduced in Tableau 2020.2. You will further use Tableau Prep’s ability to clean and structure data and share the stories contained in your data.
+This Tableau course will introduce you to visual statistical analytics capabilities, create different types of visualizations and dynamic dashboards for rich user experiences. We then move on to maps and geospatial visualization, and the new Data Model capabilities introduced in Tableau. You will further use Tableau Prep’s ability to clean and structure data and share the stories contained in your data.
 
-By the end of this course, you will be proficient in implementing the powerful features of Tableau 2020 for decision-making.
+By the end of this course, you will be proficient in implementing the powerful features of Tableau for decision-making.
