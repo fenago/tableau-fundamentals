@@ -1,8 +1,8 @@
 
 <img align="right" src="./logo.png">
 
-Lab 4. Starting an Adventure with Calculations and Parameters 
-======================================================
+Lab 4. Customizing your Data - Calculations
+===========================================
 
 
 The first half of this lab focuses on laying a foundation, while the

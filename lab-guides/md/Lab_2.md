@@ -1,7 +1,7 @@
 <img align="right" src="./logo.png">
 
-Lab 2. Connecting to Data in Tableau 
-=============================
+Lab 2. Connecting to Data, Tableau Dates & Simplifying / Sorting Your Data
+==========================================================================
 
 
 Tableau offers the ability to connect to nearly any data source. It does

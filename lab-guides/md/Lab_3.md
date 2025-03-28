@@ -1,8 +1,8 @@
 <img align="right" src="./logo.png">
 
 
-Lab 3. Moving Beyond Basic Visualizations 
-==================================
+Lab 3. Viewing Distributions & Highlighting Data with Reference Lines
+=====================================================================
 
 
 

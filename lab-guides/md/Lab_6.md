@@ -1,7 +1,7 @@
 <img align="right" src="./logo.png">
 
-Lab 6. Diving Deep with Table Calculations 
-===================================
+Lab 6. Analyzing Data with Quick Table Calculations
+===================================================
 
 
 Table calculations range in complexity, from incredibly easy to create

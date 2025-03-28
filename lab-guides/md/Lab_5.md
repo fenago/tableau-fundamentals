@@ -1,8 +1,8 @@
 
 <img align="right" src="./logo.png">
 
-Lab 5. Leveraging Level of Detail Calculations 
-=======================================
+Lab 5. Viewing Specific Values
+==============================
 
 
 Having considered row-level and aggregate calculations, it\'s time to

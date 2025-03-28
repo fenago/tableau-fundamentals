@@ -1,9 +1,7 @@
 <img align="right" src="./logo.png">
 
-Lab 1. Taking Off with Tableau 
-=======================
-
-
+Lab 1. Tableau Introduction
+===========================
 
 This lab introduces the foundational principles of Tableau. We\'ll
 go through a series of examples that will introduce you to the basics of

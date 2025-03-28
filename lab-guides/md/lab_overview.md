@@ -26,24 +26,15 @@ Gain a solid foundation to learn Tableau, and develop the skills and abilities r
 
 ### Labs
 
+1. Introduction
+2. Connecting to Data, Tableau Dates & Simplifying / Sorting Your Data
+3. Viewing Distributions & Highlighting Data with Reference Lines
+4. Customizing your Data - Calculations and Parameters
+5. Viewing Specific Values
+6. Analyzing Data with Quick Table Calculations
+7. Making Your Views Available
+8. Mapping data and Advanced Geospatial Features
 
-1. Taking Off with Tableau		
-2. Connecting to Data in Tableau	
-3. Moving Beyond Basic Visualizations
-4. Starting an Adventure with Calculations and Parameters	
-5. Leveraging Level of Detail Calculations	
-6. Diving Deep with Table Calculations
-7. Making Visualizations That Look Great and Work Well
-8. Telling a Data Story with Dashboards
-9. Visual Analytics – Trends, Clustering, Distributions, and Forecasting
-10. Advanced Visualizations
-11. Dynamic Dashboards
-12. Exploring Mapping and Advanced Geospatial Features
-13. Understanding the Tableau Data Model, Joins, and Blends
-14. Structuring Messy Data to Work Well in Tableau
-15. Taming Data with Tableau Prep
-16. Sharing Your Data Story
-	
 		
 
 ### About
