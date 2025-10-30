@@ -47,7 +47,7 @@ By the end of this lab, you will be able to:
   - Make sure you have the latest version installed
 
 **Required Dataset:**
-- **Chapter_05_Loans.csv** (provided by your instructor)
+- **Chapter_05_Loans.csv** ( https://github.com/fenago/tableau-fundamentals/raw/refs/heads/master/Lab%2005/Chapter%2005%20Loans.csv )
   - This dataset contains loan information for members of a financial institution
   - Each row represents a monthly snapshot of a loan
 
